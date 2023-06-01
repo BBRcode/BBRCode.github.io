@@ -1,0 +1,73 @@
+body {
+    background: radial-gradient(circle, rgba(174, 238, 230, 1) 0%, rgba(148, 187, 233, 1) 100%);
+    /*background-color: lightblue;*/
+  }
+  
+  /* HEADER */
+  .header {
+    text-align: center;
+  }
+  
+  .header #logoheader {
+    width: auto;
+    height: 15vh;
+  }
+  
+  /* BUTTON STUFF */
+  
+  #fortune {
+    font-size: 100px;
+    position: absolute;
+    top: 50%;
+  }
+  
+  .clicker {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .cool-button {
+    text-align: center;
+    display: flex;
+    height: 270px;
+    width: 650px;
+    border-width: 0px;
+    border-radius: 50%;
+    background-color: transparent;
+    background-image: url('CookieInitial.png');
+    background-position: center;
+    padding-left: 350px;
+    padding-top: 150px;
+  }
+  
+  /*.cool-button:hover {
+    background-image: url('CookieFinal.png');
+  } */
+  
+  /* FOOTER */
+  
+  .footer {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    bottom: 0px;
+    height: 120px;
+    width:100%;
+  }
+  
+  .orglogo {
+    max-width: 200px;
+    min-width: 100px;
+    height: auto;
+    margin-right: 12px;
+    border-radius: 10px;
+  }
+  
+  .footer-text {
+    font-size: 18px;
+    line-height: 5px;
+    font-family: 'Arial', Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif
+  }
